@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Application\glView.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\mainWindow.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\setValueGroup.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\materialTable.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SNLib\MMCellFlag.cpp">
+      <Filter>MMSurfaceNets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SNLib\MMCellMap.cpp">
+      <Filter>MMSurfaceNets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SNLib\MMGeometryGL.cpp">
+      <Filter>MMSurfaceNets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SNLib\MMSurfaceNet.cpp">
+      <Filter>MMSurfaceNets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SNLib\MMGeometryOBJ.cpp">
+      <Filter>MMSurfaceNets</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\appWindow.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\newModelDialog.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application\openModelFileDialog.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application\glShaders.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SNLib\MMCellFlag.h">
+      <Filter>MMSurfaceNets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SNLib\MMCellMap.h">
+      <Filter>MMSurfaceNets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SNLib\MMGeometryGL.h">
+      <Filter>MMSurfaceNets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SNLib\MMSurfaceNet.h">
+      <Filter>MMSurfaceNets</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SNLib\MMGeometryOBJ.h">
+      <Filter>MMSurfaceNets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Source\Application\appWindow.h">
+      <Filter>Application</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\Application\glView.h">
+      <Filter>Application</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\Application\mainWindow.h">
+      <Filter>Application</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\Application\setValueGroup.h">
+      <Filter>Application</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\Application\materialTable.h">
+      <Filter>Application</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\Application\newModelDialog.h">
+      <Filter>Application</Filter>
+    </QtMoc>
+    <QtMoc Include="Source\Application\openModelFileDialog.h">
+      <Filter>Application</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{6478e9b6-77a6-4464-bb28-668d72e9c870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMSurfaceNets">
+      <UniqueIdentifier>{3df09722-27f8-4b3e-b882-1366d0c4ea10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

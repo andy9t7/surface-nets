@@ -1,5 +1,5 @@
 # SurfaceNets by Sarah Frisken 
-This is the original copy of the sample code of SurfaceNets by Sarah Frisken.   
+This is the un-edited copy of Sarah Frisken's SurfaceNets sample code.   
   
 Available: https://jcgt.org/published/0011/01/03/
   
